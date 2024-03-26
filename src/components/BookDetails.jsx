@@ -1,4 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveDataLStore } from "../Utils";
+// import { toast } from 'react-toastify';
 
 const BookDetails = () => {
     const books = useLoaderData();
@@ -7,6 +9,11 @@ const BookDetails = () => {
     const book = books.find(book => book.bookId === parseInt(id));
     const { bookName, author, image, totalPages, rating, category, review, publisher, yearOfPublishing, tags } = book;
     //    console.log(id);
+
+    const addLSData = (book) => {
+        saveDataLStore(book);
+        // toast("Wow so easy !") 
+    }
 
     return (
         <div className="mb-5">
@@ -21,7 +28,7 @@ const BookDetails = () => {
                     <p className="text-[rgba(19,19,19,0.80)] Work-Sans text-xl font-medium">By: {author}</p>
                     <hr className="mt-3 lg:mt-6 mb-2 lg:mb-4" />
                     <p className="text-[rgba(19,19,19,0.80)] Work-Sans text-xl font-medium mb-2 lg:mb-4">{category}</p>
-                    <hr className="mb-3 lg:mb-6"/>
+                    <hr className="mb-3 lg:mb-6" />
                     <p className="text-[rgba(19,19,19,0.70)] Work-Sans mb-4 lg:mb-8"><span className="font-bold text-[#131313] Work-Sans text-base">Review : </span>{review}</p>
                     <div className='flex gap-3 Work-Sans items-center'>
                         <span className="text-[#131313] font-bold Work-Sans">Tag</span>
@@ -45,8 +52,8 @@ const BookDetails = () => {
                         </div>
                     </div>
                     <div className="flex">
-                        <button className="text-[#131313] text-lg font-semibold py-3 lg:py-4 px-7 border border-[rgba(19,19,19,0.30)] rounded-lg Work-Sans mr-4">Read</button>
-                        <button className="bg-[#50B1C9] text-white text-lg font-semibold py-3 lg:py-4 px-7 border rounded-lg Work-Sans ">Wishlist</button>                        
+                        <button onClick={() => addLSData(book)} className="text-[#131313] text-lg font-semibold py-3 lg:py-4 px-7 border border-[rgba(19,19,19,0.30)] rounded-lg Work-Sans mr-4">Read</button>
+                        <button className="bg-[#50B1C9] text-white text-lg font-semibold py-3 lg:py-4 px-7 border rounded-lg Work-Sans ">Wishlist</button>
                     </div>
                 </div>
             </div>

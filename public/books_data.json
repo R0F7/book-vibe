@@ -99,7 +99,7 @@
         "totalPages": 400,
         "rating": 4.5,
         "category": "Fantasy",
-        "tags": ["Mythology", "Historical Fiction", "Greek Mythology"],
+        "tags": ["Mythology", "Historical ", "Fiction"],
         "publisher": "Little, Brown and Company",
         "yearOfPublishing": 2018
     },
