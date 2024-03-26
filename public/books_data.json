@@ -1,0 +1,123 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "Why Do You Hate Money",
+      "author": "Joey Percia",
+      "image": "https://imgbb.host/images/3vz4K.png",
+      "review": "In 'Why Do You Hate Money', Joey Percia delves into the psychology behind our relationship with money. With refreshing honesty and practical advice, Percia challenges readers to confront their money beliefs and behaviors. Through insightful anecdotes and actionable steps, this book offers a transformative journey toward financial empowerment and freedom. A must-read for anyone seeking to redefine their financial mindset and build wealth.",
+      "totalPages": 240,
+      "rating": 4.5,
+      "category": "Non-Fiction",
+      "tags": ["Finance", "Help", "Management"],
+      "publisher": "Random House",
+      "yearOfPublishing": 2022
+    },
+    {
+      "bookId": 2,
+      "bookName": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "https://i.ibb.co/hWvcFvr/ar-190329317-removebg-preview.png",
+      "review": "Alex Michaelides' 'The Silent Patient' is a gripping psychological thriller that keeps readers on the edge of their seats until the very last page. With a plot filled with twists and turns, the story unravels the mystery of Alicia Berenson, a seemingly perfect woman who shoots her husband and then stops speaking altogether. As psychotherapist Theo Faber delves deeper into Alicia's past, he uncovers shocking secrets that will leave readers stunned. A masterfully crafted thriller that is impossible to put down.",
+      "totalPages": 336,
+      "rating": 4.3,
+      "category": "Mystery",
+      "tags": ["Thriller", "Psychological", "Suspense"],
+      "publisher": "Celadon Books",
+      "yearOfPublishing": 2019
+    },
+    {
+      "bookId": 3,
+      "bookName": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "image": "https://i.ibb.co/8YSwDjv/9781761422737-2-removebg-preview.png",
+      "review": "Taylor Jenkins Reid's 'The Seven Husbands of Evelyn Hugo' is a captivating tale of love, ambition, and Hollywood glamour. The story follows the enigmatic Evelyn Hugo, a legendary film actress, as she reveals the secrets of her scandalous life to an unknown journalist. As the layers of Evelyn's past are peeled away, readers are drawn into a world of passion, betrayal, and sacrifice. Reid's richly drawn characters and evocative storytelling make this novel a compelling and unforgettable read.",
+      "totalPages": 400,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Historical Fiction", "Romance", "Drama"],
+      "publisher": "Atria Books",
+      "yearOfPublishing": 2017
+    },
+    {
+      "bookId": 4,
+      "bookName": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "image": "https://i.ibb.co/ZxWSXG8/482789a-1-removebg-preview.png",
+      "review": "Erin Morgenstern's 'The Night Circus' is a mesmerizing fantasy novel that transports readers to a magical world unlike any other. Set within the confines of a mysterious circus that only appears at night, the story follows the enchanting duel between two young magicians, Celia and Marco. As their rivalry intensifies, the circus becomes a stage for their extraordinary talents, captivating audiences and igniting forbidden romance. Morgenstern's lush prose and vivid imagery create an immersive reading experience that will leave readers spellbound.",
+      "totalPages": 512,
+      "rating": 4.4,
+      "category": "Fantasy",
+      "tags": ["Magic", "Romance", "Mystery"],
+      "publisher": "Doubleday",
+      "yearOfPublishing": 2011
+    },
+    {
+      "bookId": 5,
+      "bookName": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "image": "https://i.ibb.co/GVW9tk4/811a-Yv9-Mqy-L-AC-UF1000-1000-QL80-removebg-preview.png",
+      "review": "Delia Owens' 'Where the Crawdads Sing' is a hauntingly beautiful novel that transports readers to the marshlands of North Carolina. The story follows Kya Clark, the 'Marsh Girl', as she navigates life alone in the wilderness after being abandoned by her family. As Kya grows up, she becomes entwined in the community's secrets, culminating in a murder trial that will change her life forever. Owens' lyrical prose and evocative descriptions of nature make this novel a poignant exploration of love, loss, and the resilience of the human spirit.",
+      "totalPages": 384,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Mystery", "Romance", "Nature"],
+      "publisher": "G.P. Putnam's Sons",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": 6,
+      "bookName": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "image": "https://i.ibb.co/bKyL6Cz/all-the-light-we-cannot-see-Anthony-Doerr-removebg-preview.png",
+      "review": "Anthony Doerr's 'All the Light We Cannot See' is a stunningly beautiful and profoundly moving novel set during World War II. The story follows two protagonists, Marie-Laure, a blind French girl, and Werner, a German orphan with a talent for engineering, whose lives converge in occupied France. As they navigate the chaos and devastation of war, their paths intertwine in unexpected ways, illuminating the power of human connection and the resilience of the human spirit. Doerr's exquisite prose and masterful storytelling make this novel a literary masterpiece that will linger in readers' hearts long after they finish reading.",
+      "totalPages": 544,
+      "rating": 4.7,
+      "category": "Historical Fiction",
+      "tags": ["War", "Survival", "Friendship"],
+      "publisher": "Scribner",
+      "yearOfPublishing": 2014
+  },
+    {
+        "bookId": 7,
+        "bookName": "An American Marriage",
+        "author": "Tayari Jones",
+        "image": "https://i.ibb.co/T11bW0L/GUEST-451452ba-0fcf-4c8a-b038-b21bec5c5988-removebg-preview.png",
+        "review": "Tayari Jones' 'An American Marriage' is a poignant exploration of love, loyalty, and racial injustice. The novel follows the lives of newlyweds Celestial and Roy, whose dreams of a bright future are shattered when Roy is wrongfully convicted of a crime he didn't commit. As Roy serves his sentence, Celestial finds solace in the arms of her childhood friend Andre, leading to a heart-wrenching examination of marriage, fidelity, and the American Dream. Jones' masterful prose and keen insight into human nature make this novel a powerful and unforgettable read.",
+        "totalPages": 320,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": ["Contemporary", "Drama", "Social Issues"],
+        "publisher": "Algonquin Books",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 8,
+        "bookName": "Circe",
+        "author": "Madeline Miller",
+        "image": "https://i.ibb.co/VJchm2m/8c6cf11f70516bf60f10fb9168ef6ab5.jpg",
+        "review": "Madeline Miller's 'Circe' is a captivating retelling of the story of Circe, the witch from Homer's Odyssey. The novel reimagines Circe's life, from her lonely childhood in the halls of her father Helios to her exile on the island of Aiaia, where she discovers her powers of witchcraft. As Circe navigates the challenges of immortality and the wrath of the gods, she finds strength and solace in her own resilience and the bonds she forms with mortals and immortals alike. Miller's lyrical prose and richly imagined world breathe new life into this ancient myth, creating an unforgettable reading experience.",
+        "totalPages": 400,
+        "rating": 4.5,
+        "category": "Fantasy",
+        "tags": ["Mythology", "Historical Fiction", "Greek Mythology"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 9,
+        "bookName": "Where'd You Go, Bernadette",
+        "author": "Maria Semple",
+        "image": "https://i.ibb.co/G9LR9mW/71-Sua-QJik5-L-AC-UF1000-1000-QL80.jpg",
+        "review": "Maria Semple's 'Where'd You Go, Bernadette' is a hilarious and heartfelt novel that follows the eccentric Bernadette Fox, a once-renowned architect who disappears without a trace just before a family trip to Antarctica. Told through a series of emails, letters, and documents, the story unravels the mystery of Bernadette's disappearance while exploring themes of creativity, identity, and mother-daughter relationships. With its sharp wit and unforgettable characters, 'Where'd You Go, Bernadette' is a delightful and engaging read that will leave readers laughing and reflecting in equal measure.",
+        "totalPages": 352,
+        "rating": 4.2,
+        "category": "Fiction",
+        "tags": ["Humor", "Family", "Adventure"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 2012
+    }
+    
+    ]
+
+         
+      
