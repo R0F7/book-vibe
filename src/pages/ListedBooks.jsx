@@ -28,7 +28,9 @@ const ListedBooks = () => {
 
             </div>
 
-            <Outlet></Outlet>
+            <div className="mt-4 lg:mt-8">
+                <Outlet></Outlet>
+            </div>
         </div>
     );
 };

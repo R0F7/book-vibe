@@ -10,8 +10,8 @@ const BookDetails = () => {
     const { bookName, author, image, totalPages, rating, category, review, publisher, yearOfPublishing, tags } = book;
     //    console.log(id);
 
-    const addLSData = (book) => {
-        saveDataLStore(book);
+    const addLSData = (book, text) => {
+        saveDataLStore(book, text);
         // toast("Wow so easy !") 
     }
 
@@ -52,8 +52,8 @@ const BookDetails = () => {
                         </div>
                     </div>
                     <div className="flex">
-                        <button onClick={() => addLSData(book)} className="text-[#131313] text-lg font-semibold py-3 lg:py-4 px-7 border border-[rgba(19,19,19,0.30)] rounded-lg Work-Sans mr-4">Read</button>
-                        <button className="bg-[#50B1C9] text-white text-lg font-semibold py-3 lg:py-4 px-7 border rounded-lg Work-Sans ">Wishlist</button>
+                        <button onClick={() => addLSData(book, 'read')} className="text-[#131313] text-lg font-semibold py-3 lg:py-4 px-7 border border-[rgba(19,19,19,0.30)] rounded-lg Work-Sans mr-4">Read</button>
+                        <button onClick={() => addLSData(book, 'wish')} className="bg-[#50B1C9] text-white text-lg font-semibold py-3 lg:py-4 px-7 border rounded-lg Work-Sans ">Wishlist</button>
                     </div>
                 </div>
             </div>

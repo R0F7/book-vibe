@@ -4,7 +4,7 @@ import { MdOutlineGroup } from 'react-icons/md';
 import { LuFileBarChart } from "react-icons/lu";
 
 const ReadAndWish = ({ book }) => {
-    const { bookId, bookName, author, image, rating, category, tags, publisher, yearOfPublishing, totalPages } = book;
+    const { bookName, author, image, rating, category, tags, publisher, yearOfPublishing, totalPages } = book;
 
     return (
         <div className='flex flex-col lg:flex-row items-center border-2 lg:border border-[rgba(19,19,19,0.15)] rounded-2xl mb-6 p-6 box-border gap-6 lg:-[295px]'>

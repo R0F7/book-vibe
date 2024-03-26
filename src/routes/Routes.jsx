@@ -33,7 +33,7 @@ export const router = createBrowserRouter([
           },
           {
             path:'wishListBook',
-            element:<WishlistBooks></WishlistBooks>
+            element:<WishlistBooks> </WishlistBooks>
           }
         ]
       },
