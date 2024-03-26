@@ -1,9 +1,16 @@
 import PropTypes from 'prop-types'
-import { useLoaderData } from "react-router-dom";
+// import { useLoaderData } from "react-router-dom";
 import Book from './Book';
+import { useEffect, useState } from 'react';
 
 const Books = () => {
-    const books = useLoaderData();
+   const [books, setBooks] = useState([]);
+
+    useEffect(()=>{
+        fetch('./books_data.json')
+        .then(res => res.json())
+        .then(data => setBooks(data))
+    },[])
 
     return (
         <div className="mt-8 lg:mt-[100px]">
