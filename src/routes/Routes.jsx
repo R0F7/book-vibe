@@ -6,6 +6,7 @@ import PagesToRead from "../pages/PagesToRead";
 import BookDetails from "../components/BookDetails";
 import ReadBooks from "../components/ReadBooks";
 import WishlistBooks from "../components/WishlistBooks";
+import ErrorPage from "../components/ErrorPage";
 // import Books from "../components/Books";
 
 
@@ -41,6 +42,7 @@ export const router = createBrowserRouter([
         path: '/pages-to-read',
         element: <PagesToRead></PagesToRead>
       }
-    ]
+    ],
+    errorElement:<ErrorPage></ErrorPage>
   },
 ]);

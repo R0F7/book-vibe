@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SliderImg from "../assets/pngwing 1.png"
 
 const Slider = () => {
@@ -7,7 +8,7 @@ const Slider = () => {
                 <img src={SliderImg} className="max-w-sm max-h-[300px] lg:max-h-full rounded-lg " />
                 <div>
                     <h1 className="text-5xl font-bold text-[#131313] Playfair-Display lg:text-6xl lg:mr-72 lg:mb-12 mb-6">Books to freshen up <br /> <span>your bookshelf</span></h1>
-                    <button className="btn bg-[#23BE0A] text-white font-bold text-xl">View The List</button>
+                    <Link to='/listed-books' className="btn bg-[#23BE0A] text-white font-bold text-xl">View The List</Link>
                 </div>
             </div>
         </div>

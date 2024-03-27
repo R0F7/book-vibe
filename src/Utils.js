@@ -41,5 +41,21 @@ const saveDataLStore = (book, text) => {
 }
 
 
+
+// // const ratingData = (value = []) =>{
+// //     let setValue = value;
+// //     return setValue ;
+// // }
+// // console.log(ratingData());
+
+// const ratingData = (value = []) => {
+//     let sortedValue = [...value]; // Create a copy of the array to avoid mutating the original array
+//     sortedValue.sort((a, b) => {
+//         return a.rating - b.rating;
+//     });
+//     return sortedValue;
+// }
+
+
 export { getLStoreData, saveDataLStore, getLStoreData1 }
 
