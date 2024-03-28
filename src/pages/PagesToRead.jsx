@@ -35,7 +35,7 @@ const PagesToRead = () => {
     });
 
     return (
-        <div className='text-[15px] h-[700px] w-full '>
+        <div className='text-base h-[500px] lg:h-[700px] w-full '>
             <ResponsiveContainer>
             <BarChart
                 data={data}
@@ -47,7 +47,7 @@ const PagesToRead = () => {
                 }}
             >
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
+                <XAxis dataKey="name" className='text-[10px] lg:text-base '/>
                 <YAxis />
                 <Tooltip></Tooltip>
                 <Bar dataKey="page" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>

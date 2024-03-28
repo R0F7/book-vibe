@@ -11,7 +11,7 @@ const ReadAndWish = ({ book }) => {
             <div className='h-[250px] w-full lg:w-[230px] flex justify-center items-center bg-[rgba(19,19,19,0.05)] rounded-2xl p-7 '>
                 <img className='w-[50%] lg:w-full h-full' src={image} alt="" />
             </div>
-            <div>
+            <div className='lg:flex-1'>
                 <h4 className='text-[#131313] Playfair-Display lg:text-2xl font-bold mb-2 lg:mb-4'>{bookName}</h4>
                 <h4 className='text-[rgba(19,19,19,0.80)] Work-Sans text-base font-medium mb-3 lg:mb-4'>By: {author}</h4>
                 <div className='flex flex-col lg:flex-row gap-2 lg:gap-4 items-center mb-2 lg:mb-4'>
