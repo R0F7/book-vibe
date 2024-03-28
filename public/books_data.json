@@ -1,123 +1,324 @@
 [
-    {
-      "bookId": 1,
-      "bookName": "Why Do You Hate Money",
-      "author": "Joey Percia",
-      "image": "https://imgbb.host/images/3vz4K.png",
-      "review": "In 'Why Do You Hate Money', Joey Percia delves into the psychology behind our relationship with money. With refreshing honesty and practical advice, Percia challenges readers to confront their money beliefs and behaviors. Through insightful anecdotes and actionable steps, this book offers a transformative journey toward financial empowerment and freedom. A must-read for anyone seeking to redefine their financial mindset and build wealth.",
-      "totalPages": 240,
-      "rating": 4.5,
-      "category": "Non-Fiction",
-      "tags": ["Finance", "Help", "Management"],
-      "publisher": "Random House",
-      "yearOfPublishing": 2022
-    },
-    {
-      "bookId": 2,
-      "bookName": "The Silent Patient",
-      "author": "Alex Michaelides",
-      "image": "https://i.ibb.co/hWvcFvr/ar-190329317-removebg-preview.png",
-      "review": "Alex Michaelides' 'The Silent Patient' is a gripping psychological thriller that keeps readers on the edge of their seats until the very last page. With a plot filled with twists and turns, the story unravels the mystery of Alicia Berenson, a seemingly perfect woman who shoots her husband and then stops speaking altogether. As psychotherapist Theo Faber delves deeper into Alicia's past, he uncovers shocking secrets that will leave readers stunned. A masterfully crafted thriller that is impossible to put down.",
-      "totalPages": 336,
-      "rating": 4.3,
-      "category": "Mystery",
-      "tags": ["Thriller", "Psychological", "Suspense"],
-      "publisher": "Celadon Books",
-      "yearOfPublishing": 2019
-    },
-    {
-      "bookId": 3,
-      "bookName": "The Seven Husbands of Evelyn Hugo",
-      "author": "Taylor Jenkins Reid",
-      "image": "https://i.ibb.co/8YSwDjv/9781761422737-2-removebg-preview.png",
-      "review": "Taylor Jenkins Reid's 'The Seven Husbands of Evelyn Hugo' is a captivating tale of love, ambition, and Hollywood glamour. The story follows the enigmatic Evelyn Hugo, a legendary film actress, as she reveals the secrets of her scandalous life to an unknown journalist. As the layers of Evelyn's past are peeled away, readers are drawn into a world of passion, betrayal, and sacrifice. Reid's richly drawn characters and evocative storytelling make this novel a compelling and unforgettable read.",
-      "totalPages": 400,
-      "rating": 4.6,
-      "category": "Fiction",
-      "tags": ["Fiction", "Romance", "Drama"],
-      "publisher": "Atria Books",
-      "yearOfPublishing": 2017
-    },
-    {
-      "bookId": 4,
-      "bookName": "The Night Circus",
-      "author": "Erin Morgenstern",
-      "image": "https://i.ibb.co/ZxWSXG8/482789a-1-removebg-preview.png",
-      "review": "Erin Morgenstern's 'The Night Circus' is a mesmerizing fantasy novel that transports readers to a magical world unlike any other. Set within the confines of a mysterious circus that only appears at night, the story follows the enchanting duel between two young magicians, Celia and Marco. As their rivalry intensifies, the circus becomes a stage for their extraordinary talents, captivating audiences and igniting forbidden romance. Morgenstern's lush prose and vivid imagery create an immersive reading experience that will leave readers spellbound.",
-      "totalPages": 512,
-      "rating": 4.4,
-      "category": "Fantasy",
-      "tags": ["Magic", "Romance", "Mystery"],
-      "publisher": "Doubleday",
-      "yearOfPublishing": 2011
-    },
-    {
-      "bookId": 5,
-      "bookName": "Where the Crawdads Sing",
-      "author": "Delia Owens",
-      "image": "https://i.ibb.co/GVW9tk4/811a-Yv9-Mqy-L-AC-UF1000-1000-QL80-removebg-preview.png",
-      "review": "Delia Owens' 'Where the Crawdads Sing' is a hauntingly beautiful novel that transports readers to the marshlands of North Carolina. The story follows Kya Clark, the 'Marsh Girl', as she navigates life alone in the wilderness after being abandoned by her family. As Kya grows up, she becomes entwined in the community's secrets, culminating in a murder trial that will change her life forever. Owens' lyrical prose and evocative descriptions of nature make this novel a poignant exploration of love, loss, and the resilience of the human spirit.",
-      "totalPages": 384,
-      "rating": 4.6,
-      "category": "Fiction",
-      "tags": ["Mystery", "Romance", "Nature"],
-      "publisher": "G.P. Putnam's Sons",
-      "yearOfPublishing": 2018
-    },
-    {
-      "bookId": 6,
-      "bookName": "All the Light We Cannot See",
-      "author": "Anthony Doerr",
-      "image": "https://i.ibb.co/bKyL6Cz/all-the-light-we-cannot-see-Anthony-Doerr-removebg-preview.png",
-      "review": "Anthony Doerr's 'All the Light We Cannot See' is a stunningly beautiful and profoundly moving novel set during World War II. The story follows two protagonists, Marie-Laure, a blind French girl, and Werner, a German orphan with a talent for engineering, whose lives converge in occupied France. As they navigate the chaos and devastation of war, their paths intertwine in unexpected ways, illuminating the power of human connection and the resilience of the human spirit. Doerr's exquisite prose and masterful storytelling make this novel a literary masterpiece that will linger in readers' hearts long after they finish reading.",
-      "totalPages": 544,
-      "rating": 4.7,
-      "category": "Historical Fiction",
-      "tags": ["War", "Survival", "Friendship"],
-      "publisher": "Scribner",
-      "yearOfPublishing": 2014
+  {
+    "bookId": 1,
+    "bookName": "Why Do You Hate Money",
+    "author": "Joey Percia",
+    "image": "https://imgbb.host/images/3vz4K.png",
+    "review": "In 'Why Do You Hate Money', Joey Percia delves into the psychology behind our relationship with money. With refreshing honesty and practical advice, Percia challenges readers to confront their money beliefs and behaviors. Through insightful anecdotes and actionable steps, this book offers a transformative journey toward financial empowerment and freedom. A must-read for anyone seeking to redefine their financial mindset and build wealth.",
+    "totalPages": 240,
+    "rating": 4.5,
+    "category": "Non-Fiction",
+    "tags": [
+      "Finance",
+      "Help",
+      "Management"
+    ],
+    "publisher": "Random House",
+    "yearOfPublishing": 2022
   },
-    {
-        "bookId": 7,
-        "bookName": "An American Marriage",
-        "author": "Tayari Jones",
-        "image": "https://i.ibb.co/T11bW0L/GUEST-451452ba-0fcf-4c8a-b038-b21bec5c5988-removebg-preview.png",
-        "review": "Tayari Jones' 'An American Marriage' is a poignant exploration of love, loyalty, and racial injustice. The novel follows the lives of newlyweds Celestial and Roy, whose dreams of a bright future are shattered when Roy is wrongfully convicted of a crime he didn't commit. As Roy serves his sentence, Celestial finds solace in the arms of her childhood friend Andre, leading to a heart-wrenching examination of marriage, fidelity, and the American Dream. Jones' masterful prose and keen insight into human nature make this novel a powerful and unforgettable read.",
-        "totalPages": 320,
-        "rating": 4.3,
-        "category": "Fiction",
-        "tags": ["Contemporary", "Drama", "Social"],
-        "publisher": "Algonquin Books",
-        "yearOfPublishing": 2018
-    },
-    {
-        "bookId": 8,
-        "bookName": "Circe",
-        "author": "Madeline Miller",
-        "image": "https://i.ibb.co/VJchm2m/8c6cf11f70516bf60f10fb9168ef6ab5.jpg",
-        "review": "Madeline Miller's 'Circe' is a captivating retelling of the story of Circe, the witch from Homer's Odyssey. The novel reimagines Circe's life, from her lonely childhood in the halls of her father Helios to her exile on the island of Aiaia, where she discovers her powers of witchcraft. As Circe navigates the challenges of immortality and the wrath of the gods, she finds strength and solace in her own resilience and the bonds she forms with mortals and immortals alike. Miller's lyrical prose and richly imagined world breathe new life into this ancient myth, creating an unforgettable reading experience.",
-        "totalPages": 400,
-        "rating": 4.5,
-        "category": "Fantasy",
-        "tags": ["Mythology", "Historical ", "Fiction"],
-        "publisher": "Little, Brown and Company",
-        "yearOfPublishing": 2018
-    },
-    {
-        "bookId": 9,
-        "bookName": "Where'd You Go, Bernadette",
-        "author": "Maria Semple",
-        "image": "https://i.ibb.co/G9LR9mW/71-Sua-QJik5-L-AC-UF1000-1000-QL80.jpg",
-        "review": "Maria Semple's 'Where'd You Go, Bernadette' is a hilarious and heartfelt novel that follows the eccentric Bernadette Fox, a once-renowned architect who disappears without a trace just before a family trip to Antarctica. Told through a series of emails, letters, and documents, the story unravels the mystery of Bernadette's disappearance while exploring themes of creativity, identity, and mother-daughter relationships. With its sharp wit and unforgettable characters, 'Where'd You Go, Bernadette' is a delightful and engaging read that will leave readers laughing and reflecting in equal measure.",
-        "totalPages": 352,
-        "rating": 4.2,
-        "category": "Fiction",
-        "tags": ["Humor", "Family", "Adventure"],
-        "publisher": "Little, Brown and Company",
-        "yearOfPublishing": 2012
-    }
-    
-    ]
+  {
+    "bookId": 2,
+    "bookName": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "image": "https://i.ibb.co/hWvcFvr/ar-190329317-removebg-preview.png",
+    "review": "Alex Michaelides' 'The Silent Patient' is a gripping psychological thriller that keeps readers on the edge of their seats until the very last page. With a plot filled with twists and turns, the story unravels the mystery of Alicia Berenson, a seemingly perfect woman who shoots her husband and then stops speaking altogether. As psychotherapist Theo Faber delves deeper into Alicia's past, he uncovers shocking secrets that will leave readers stunned. A masterfully crafted thriller that is impossible to put down.",
+    "totalPages": 336,
+    "rating": 4.3,
+    "category": "Mystery",
+    "tags": [
+      "Thriller",
+      "Psychological",
+      "Suspense"
+    ],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2019
+  },
+  {
+    "bookId": 3,
+    "bookName": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "image": "https://i.ibb.co/8YSwDjv/9781761422737-2-removebg-preview.png",
+    "review": "Taylor Jenkins Reid's 'The Seven Husbands of Evelyn Hugo' is a captivating tale of love, ambition, and Hollywood glamour. The story follows the enigmatic Evelyn Hugo, a legendary film actress, as she reveals the secrets of her scandalous life to an unknown journalist. As the layers of Evelyn's past are peeled away, readers are drawn into a world of passion, betrayal, and sacrifice. Reid's richly drawn characters and evocative storytelling make this novel a compelling and unforgettable read.",
+    "totalPages": 400,
+    "rating": 4.6,
+    "category": "Fiction",
+    "tags": [
+      "Fiction",
+      "Romance",
+      "Drama"
+    ],
+    "publisher": "Atria Books",
+    "yearOfPublishing": 2017
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "image": "https://i.ibb.co/ZxWSXG8/482789a-1-removebg-preview.png",
+    "review": "Erin Morgenstern's 'The Night Circus' is a mesmerizing fantasy novel that transports readers to a magical world unlike any other. Set within the confines of a mysterious circus that only appears at night, the story follows the enchanting duel between two young magicians, Celia and Marco. As their rivalry intensifies, the circus becomes a stage for their extraordinary talents, captivating audiences and igniting forbidden romance. Morgenstern's lush prose and vivid imagery create an immersive reading experience that will leave readers spellbound.",
+    "totalPages": 512,
+    "rating": 4.4,
+    "category": "Fantasy",
+    "tags": [
+      "Magic",
+      "Romance",
+      "Mystery"
+    ],
+    "publisher": "Doubleday",
+    "yearOfPublishing": 2011
+  },
+  {
+    "bookId": 5,
+    "bookName": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "image": "https://i.ibb.co/GVW9tk4/811a-Yv9-Mqy-L-AC-UF1000-1000-QL80-removebg-preview.png",
+    "review": "Delia Owens' 'Where the Crawdads Sing' is a hauntingly beautiful novel that transports readers to the marshlands of North Carolina. The story follows Kya Clark, the 'Marsh Girl', as she navigates life alone in the wilderness after being abandoned by her family. As Kya grows up, she becomes entwined in the community's secrets, culminating in a murder trial that will change her life forever. Owens' lyrical prose and evocative descriptions of nature make this novel a poignant exploration of love, loss, and the resilience of the human spirit.",
+    "totalPages": 384,
+    "rating": 4.6,
+    "category": "Fiction",
+    "tags": [
+      "Mystery",
+      "Romance",
+      "Nature"
+    ],
+    "publisher": "G.P. Putnam's Sons",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 6,
+    "bookName": "All the Light We Cannot See",
+    "author": "Anthony Doerr",
+    "image": "https://i.ibb.co/bKyL6Cz/all-the-light-we-cannot-see-Anthony-Doerr-removebg-preview.png",
+    "review": "Anthony Doerr's 'All the Light We Cannot See' is a stunningly beautiful and profoundly moving novel set during World War II. The story follows two protagonists, Marie-Laure, a blind French girl, and Werner, a German orphan with a talent for engineering, whose lives converge in occupied France. As they navigate the chaos and devastation of war, their paths intertwine in unexpected ways, illuminating the power of human connection and the resilience of the human spirit. Doerr's exquisite prose and masterful storytelling make this novel a literary masterpiece that will linger in readers' hearts long after they finish reading.",
+    "totalPages": 544,
+    "rating": 4.7,
+    "category": "Historical Fiction",
+    "tags": [
+      "War",
+      "Survival",
+      "Friendship"
+    ],
+    "publisher": "Scribner",
+    "yearOfPublishing": 2014
+  },
+  {
+    "bookId": 7,
+    "bookName": "An American Marriage",
+    "author": "Tayari Jones",
+    "image": "https://i.ibb.co/T11bW0L/GUEST-451452ba-0fcf-4c8a-b038-b21bec5c5988-removebg-preview.png",
+    "review": "Tayari Jones' 'An American Marriage' is a poignant exploration of love, loyalty, and racial injustice. The novel follows the lives of newlyweds Celestial and Roy, whose dreams of a bright future are shattered when Roy is wrongfully convicted of a crime he didn't commit. As Roy serves his sentence, Celestial finds solace in the arms of her childhood friend Andre, leading to a heart-wrenching examination of marriage, fidelity, and the American Dream. Jones' masterful prose and keen insight into human nature make this novel a powerful and unforgettable read.",
+    "totalPages": 320,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": [
+      "Contemporary",
+      "Drama",
+      "Social"
+    ],
+    "publisher": "Algonquin Books",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 8,
+    "bookName": "Circe",
+    "author": "Madeline Miller",
+    "image": "https://i.ibb.co/VJchm2m/8c6cf11f70516bf60f10fb9168ef6ab5.jpg",
+    "review": "Madeline Miller's 'Circe' is a captivating retelling of the story of Circe, the witch from Homer's Odyssey. The novel reimagines Circe's life, from her lonely childhood in the halls of her father Helios to her exile on the island of Aiaia, where she discovers her powers of witchcraft. As Circe navigates the challenges of immortality and the wrath of the gods, she finds strength and solace in her own resilience and the bonds she forms with mortals and immortals alike. Miller's lyrical prose and richly imagined world breathe new life into this ancient myth, creating an unforgettable reading experience.",
+    "totalPages": 400,
+    "rating": 4.5,
+    "category": "Fantasy",
+    "tags": [
+      "Mythology",
+      "Historical ",
+      "Fiction"
+    ],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 9,
+    "bookName": "Where'd You Go, Bernadette",
+    "author": "Maria Semple",
+    "image": "https://i.ibb.co/G9LR9mW/71-Sua-QJik5-L-AC-UF1000-1000-QL80.jpg",
+    "review": "Maria Semple's 'Where'd You Go, Bernadette' is a hilarious and heartfelt novel that follows the eccentric Bernadette Fox, a once-renowned architect who disappears without a trace just before a family trip to Antarctica. Told through a series of emails, letters, and documents, the story unravels the mystery of Bernadette's disappearance while exploring themes of creativity, identity, and mother-daughter relationships. With its sharp wit and unforgettable characters, 'Where'd You Go, Bernadette' is a delightful and engaging read that will leave readers laughing and reflecting in equal measure.",
+    "totalPages": 352,
+    "rating": 4.2,
+    "category": "Fiction",
+    "tags": [
+      "Humor",
+      "Family",
+      "Adventure"
+    ],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 2012
+  },
+  {
+    "bookId": 10,
+    "bookName": "Becoming",
+    "author": "Michelle Obama",
+    "image": "https://i.ibb.co/SdkrV2q/Becoming.jpg",
+    "review": "Michelle Obama's 'Becoming' is an intimate and deeply personal memoir that offers readers a glimpse into her life, from her childhood on the South Side of Chicago to her years as First Lady of the United States. With candor and grace, Obama shares her triumphs and setbacks, offering insights into her journey of self-discovery and the challenges she faced along the way. Her memoir is a testament to the power of resilience, hope, and the importance of staying true to oneself.",
+    "totalPages": 448,
+    "rating": 4.9,
+    "category": "Memoir",
+    "tags": [
+      "Autobiography",
+      "Politics",
+      "Inspiration"
+    ],
+    "publisher": "Crown Publishing Group",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 11,
+    "bookName": "Educated: A Memoir",
+    "author": "Tara Westover",
+    "image": "https://i.ibb.co/nPrrN3w/Educated-A-Memoir.jpg",
+    "review": "Tara Westover's 'Educated: A Memoir' is a powerful and inspiring account of her journey from a childhood in rural Idaho, raised by survivalist parents with no formal education, to earning a PhD from Cambridge University. Through perseverance and self-discovery, Westover overcomes immense obstacles to pursue knowledge and forge her own path. Her memoir is a testament to the transformative power of education and the resilience of the human spirit. A compelling and unforgettable story that will leave readers profoundly moved.",
+    "totalPages": 352,
+    "rating": 4.8,
+    "category": "Memoir",
+    "tags": [
+      "Autobiography",
+      "Education",
+      "Inspiration"
+    ],
+    "publisher": "Random House",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 12,
+    "bookName": "The Goldfinch",
+    "author": "Donna Tartt",
+    "image": "https://i.ibb.co/9Ybd9V9/The-Goldfinch.jpg",
+    "review": "Donna Tartt's 'The Goldfinch' is a sprawling and epic novel that follows the life of Theo Decker, a young boy who survives a terrorist attack at the Metropolitan Museum of Art that kills his mother. In the aftermath of the tragedy, Theo becomes entangled in a world of art theft, deception, and betrayal, all while clinging to a priceless painting that holds the key to his past. Tartt's masterful storytelling and richly drawn characters make this novel an immersive and unforgettable reading experience that will stay with readers long after they turn the final page.",
+    "totalPages": 784,
+    "rating": 4.1,
+    "category": "Fiction",
+    "tags": [
+      "Literary Fiction",
+      "Art",
+      "Coming-of-Age"
+    ],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 2013
+  },
+  {
+    "bookId": 13,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/Y0gf9VV/The-Great-Gatsby.jpg",
+    "review": "F. Scott Fitzgerald's 'The Great Gatsby' is a classic American novel that explores themes of love, wealth, and the American Dream. Set in the 1920s, the story follows the enigmatic Jay Gatsby as he pursues his obsession with the beautiful Daisy Buchanan, leading to tragic consequences. Fitzgerald's lyrical prose and vivid characters make 'The Great Gatsby' a timeless masterpiece that continues to resonate with readers today.",
+    "totalPages": 180,
+    "rating": 4.3,
+    "category": "Classic",
+    "tags": ["1920s", "Love", "Tragedy"],
+    "publisher": "Scribner",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 14,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co/t4m4mFt/To-Kill-a-Mockingbird.jpg",
+    "review": "Harper Lee's 'To Kill a Mockingbird' is a powerful and poignant novel that tackles themes of racial injustice, morality, and compassion in the American South. Through the eyes of young Scout Finch, readers witness her father, Atticus Finch, defend a black man falsely accused of raping a white woman, highlighting the deep-seated prejudices and inequalities of the time. Lee's timeless storytelling and memorable characters make 'To Kill a Mockingbird' a must-read for readers of all ages.",
+    "totalPages": 281,
+    "rating": 4.5,
+    "category": "Classic",
+    "tags": ["Racial Injustice", "Morality", "Compassion"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 15,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co/Q6PGgzw/1984.jpg",
+    "review": "George Orwell's '1984' is a dystopian masterpiece that explores themes of totalitarianism, surveillance, and individual freedom. Set in a repressive future society where the government controls every aspect of its citizens' lives, the story follows Winston Smith as he rebels against the oppressive regime and dares to dream of a better world. Orwell's chilling vision of a dystopian future remains as relevant today as when it was first published, serving as a warning against the dangers of unchecked authority.",
+    "totalPages": 328,
+    "rating": 4.6,
+    "category": "Dystopian",
+    "tags": ["Totalitarianism", "Surveillance", "Freedom"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 16,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://i.ibb.co/0XZxXTV/Pride-and-Prejudice.jpg",
+    "review": "Jane Austen's 'Pride and Prejudice' is a timeless romantic comedy of manners that follows the spirited Elizabeth Bennet as she navigates the complexities of love and social status in early 19th-century England. Against the backdrop of the Georgian era, Austen masterfully weaves a tale of misunderstandings, societal expectations, and the transformative power of love. With its sharp wit and memorable characters, 'Pride and Prejudice' remains one of the most beloved novels in English literature.",
+    "totalPages": 279,
+    "rating": 4.4,
+    "category": "Romance",
+    "tags": ["Comedy of Manners", "Social Status", "Love"],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  },
+  {
+    "bookId": 17,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://i.ibb.co/LvYsMqC/The-Catcher-in-the-Rye.jpg",
+    "review": "J.D. Salinger's 'The Catcher in the Rye' is a seminal coming-of-age novel that follows the disillusioned teenager Holden Caulfield as he navigates the complexities of adolescence and the phoniness of the adult world. With its raw honesty and irreverent voice, the novel explores themes of alienation, identity, and the search for authenticity. Salinger's iconic protagonist and distinctive narrative style have made 'The Catcher in the Rye' a timeless classic that continues to resonate with readers of all generations.",
+    "totalPages": 224,
+    "rating": 4.2,
+    "category": "Coming-of-Age",
+    "tags": ["Adolescence", "Identity", "Authenticity"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 18,
+    "bookName": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "image": "https://i.ibb.co/prXz7bN/The-Hobbit.jpg",
+    "review": "J.R.R. Tolkien's 'The Hobbit' is a captivating adventure that follows the journey of Bilbo Baggins, a hobbit who is swept away on a quest to reclaim a treasure guarded by the dragon Smaug. Along the way, Bilbo encounters trolls, elves, and a mysterious creature named Gollum, testing his courage and resourcefulness. Tolkien's richly imagined world and vivid storytelling make 'The Hobbit' a timeless classic that appeals to readers of all ages.",
+    "totalPages": 310,
+    "rating": 4.7,
+    "category": "Fantasy",
+    "tags": ["Adventure", "Quest", "Magic"],
+    "publisher": "George Allen & Unwin",
+    "yearOfPublishing": 1937
+  },
+  {
+    "bookId": 19,
+    "bookName": "The Alchemist",
+    "author": "Paulo Coelho",
+    "image": "https://i.ibb.co/WxTbYnP/The-Alchemist.jpg",
+    "review": "Paulo Coelho's 'The Alchemist' is a philosophical fable about the journey of self-discovery and personal legend. The story follows Santiago, a young shepherd who sets out on a quest to find a hidden treasure and discovers the true meaning of life along the way. Through encounters with wise mentors and transformative experiences, Santiago learns valuable lessons about following his dreams and listening to his heart. Coelho's timeless tale inspires readers to pursue their dreams and embrace the unknown.",
+    "totalPages": 197,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["Philosophy", "Quest", "Spirituality"],
+    "publisher": "HarperCollins",
+    "yearOfPublishing": 1988
+  },
+  {
+    "bookId": 20,
+    "bookName": "The Road",
+    "author": "Cormac McCarthy",
+    "image": "https://i.ibb.co/8PgVdYf/The-Road.jpg",
+    "review": "Cormac McCarthy's 'The Road' is a haunting and harrowing post-apocalyptic novel that follows a father and his young son as they journey through a desolate landscape ravaged by an unspecified cataclysm. Amidst the bleakness and despair, the pair struggles to survive while maintaining their humanity in a world devoid of hope. McCarthy's spare prose and stark imagery create a chilling portrait of survival and resilience in the face of unimaginable adversity.",
+    "totalPages": 287,
+    "rating": 4.6,
+    "category": "Science Fiction",
+    "tags": ["Post-Apocalyptic", "Survival", "Fatherhood"],
+    "publisher": "Alfred A. Knopf",
+    "yearOfPublishing": 2006
+  },
+  {
+    "bookId": 21,
+    "bookName": "The Book Thief",
+    "author": "Markus Zusak",
+    "image": "https://i.ibb.co/YBBR7f9/The-Book-Thief.jpg",
+    "review": "Markus Zusak's 'The Book Thief' is a poignant and unforgettable tale set during World War II, narrated by Death himself. The story follows Liesel Meminger, a young girl living in Nazi Germany, as she discovers the power of words and storytelling amidst the horrors of war. Through stolen books and forbidden friendships, Liesel finds solace and courage in the midst of darkness. Zusak's lyrical prose and unique narrative voice make 'The Book Thief' a literary masterpiece that captures the resilience of the human spirit.",
+    "totalPages": 552,
+    "rating": 4.8,
+    "category": "Historical Fiction",
+    "tags": ["World War II", "Friendship", "Hope"],
+    "publisher": "Alfred A. Knopf",
+    "yearOfPublishing": 2005
+  }
 
-         
-      
+]

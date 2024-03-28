@@ -2,9 +2,10 @@ import PropTypes from 'prop-types';
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineGroup } from 'react-icons/md';
 import { LuFileBarChart } from "react-icons/lu";
+import { Link } from 'react-router-dom';
 
 const ReadAndWish = ({ book }) => {
-    const { bookName, author, image, rating, category, tags, publisher, yearOfPublishing, totalPages } = book;
+    const { bookId, bookName, author, image, rating, category, tags, publisher, yearOfPublishing, totalPages } = book;
 
     return (
         <div className='flex flex-col lg:flex-row items-center border-2 lg:border border-[rgba(19,19,19,0.15)] rounded-2xl mb-6 p-6 box-border gap-6 lg:-[295px]'>
@@ -42,8 +43,8 @@ const ReadAndWish = ({ book }) => {
                         <h4 className='text-[#328EFF] Work-Sans font-normal bg-[rgba(50,142,255,0.15)] py-3 px-4 rounded-[30px]'>Category: {category}</h4>
                         <h4 className='text-[#FFAC33] Work-Sans font-normal bg-[rgba(255,172,51,0.15)] py-3 px-4 rounded-[30px]'>Rating: {rating}</h4>
                     </div>
-                    <div>
-                        <button className='text-white Work-Sans font-normal bg-[#23BE0A] py-3 px-4 rounded-[30px]'>View Details</button>
+                    <div className='flex items-center'>
+                        <Link to={`/bookId/${bookId}`} className='text-white Work-Sans font-normal bg-[#23BE0A] py-3 px-4 rounded-[30px]'>View Details</Link>
                     </div>
                 </div>
 

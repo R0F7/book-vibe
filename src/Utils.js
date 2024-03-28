@@ -29,13 +29,16 @@ const saveDataLStore = (book, text) => {
         storedData.push(book);
         localStorage.setItem('books', JSON.stringify(storedData));
         toast.success('Book Added to Read List')
+
     } else if (!isExist && !isExist1 && text === 'wish'){
         storedData1.push(book);
         localStorage.setItem('wish', JSON.stringify(storedData1));
         toast.success('Book Added to Wish List')
+
     }
     else {
         toast.error('You Have Already Read This Book')
+        
     }
 
 }
