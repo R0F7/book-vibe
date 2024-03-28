@@ -4,7 +4,7 @@
 
 ## Live site:
 - [Book Vibe (netlify)](https://book-vibe-b9-a8.netlify.app)
-- [Book Vibe (surge)](obsequious-tree.surge.sh)
+- [Book Vibe (surge)](https://obsequious-tree.surge.sh)
 
 ---
 ## Resources:
