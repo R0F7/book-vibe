@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getLStoreData } from "../Utils";
+import { getLStoreData } from "../utils/Utils";
 import ReadAndWish from "./ReadAndWish";
 import { useOutletContext } from "react-router-dom";
 

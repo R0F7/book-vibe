@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import { getLStoreData1 } from "../Utils";
+import { getLStoreData1 } from "../utils/Utils";
 import ReadAndWish from "./ReadAndWish";
 import { useOutletContext } from "react-router-dom";
 

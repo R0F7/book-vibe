@@ -1,13 +1,12 @@
 
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import { getLStoreData, getLStoreData1 } from "../Utils";
+import { getLStoreData, getLStoreData1 } from "../utils/Utils";
 import { FaAngleDown } from "react-icons/fa";
 
 const ListedBooks = () => {
     const [tabIndex, setTabIndex] = useState(0);
     const [sort, setSort] = useState([]);
-
     const [sort1, setSort1] = useState([]);
 
     const handleShort = (value) => {

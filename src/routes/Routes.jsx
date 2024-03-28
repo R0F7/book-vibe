@@ -8,6 +8,7 @@ import ReadBooks from "../components/ReadBooks";
 import WishlistBooks from "../components/WishlistBooks";
 import ErrorPage from "../components/ErrorPage";
 import TopRatedBooks from "../pages/TopRatedBooks";
+import ContactUs from "../pages/ContactUs";
 // import Books from "../components/Books";
 
 
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
       {
         path:'/top-rated-books',
         element:<TopRatedBooks></TopRatedBooks>
+      },
+      {
+        path:'/contact-us',
+        element:<ContactUs></ContactUs>
       }
     ],
     errorElement:<ErrorPage></ErrorPage>

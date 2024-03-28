@@ -1,6 +1,6 @@
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Tooltip } from 'recharts';
 import { useEffect, useState } from "react";
-import { getLStoreData } from "../Utils";
+import { getLStoreData } from "../utils/Utils";
 
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
 

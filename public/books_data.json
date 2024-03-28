@@ -196,9 +196,9 @@
     "rating": 4.1,
     "category": "Fiction",
     "tags": [
-      "Literary Fiction",
+      "Fiction",
       "Art",
-      "Coming-of-Age"
+      "C-o-A"
     ],
     "publisher": "Little, Brown and Company",
     "yearOfPublishing": 2013
@@ -225,7 +225,7 @@
     "totalPages": 281,
     "rating": 4.5,
     "category": "Classic",
-    "tags": ["Racial Injustice", "Morality", "Compassion"],
+    "tags": ["Injustice", "Morality", "Compassion"],
     "publisher": "J. B. Lippincott & Co.",
     "yearOfPublishing": 1960
   },
@@ -251,7 +251,7 @@
     "totalPages": 279,
     "rating": 4.4,
     "category": "Romance",
-    "tags": ["Comedy of Manners", "Social Status", "Love"],
+    "tags": ["Comedy", "Social", "Love"],
     "publisher": "T. Egerton, Whitehall",
     "yearOfPublishing": 1813
   },
@@ -303,7 +303,7 @@
     "totalPages": 287,
     "rating": 4.6,
     "category": "Science Fiction",
-    "tags": ["Post-Apocalyptic", "Survival", "Fatherhood"],
+    "tags": ["Apocalyptic", "Survival", "Fatherhood"],
     "publisher": "Alfred A. Knopf",
     "yearOfPublishing": 2006
   },
@@ -316,7 +316,7 @@
     "totalPages": 552,
     "rating": 4.8,
     "category": "Historical Fiction",
-    "tags": ["World War II", "Friendship", "Hope"],
+    "tags": ["W W II", "Friendship", "Hope"],
     "publisher": "Alfred A. Knopf",
     "yearOfPublishing": 2005
   }

@@ -37,7 +37,7 @@ const saveDataLStore = (book, text) => {
 
     }
     else {
-        toast.error('You Have Already Read This Book')
+        toast.error('You Have Already Added This Book')
         
     }
 

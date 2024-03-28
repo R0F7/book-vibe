@@ -1,5 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { saveDataLStore } from "../Utils";
+import { saveDataLStore } from "../utils/Utils";
 // import { toast } from 'react-toastify';
 
 const BookDetails = () => {
@@ -52,7 +52,7 @@ const BookDetails = () => {
                         </div>
                     </div>
                     <div className="flex">
-                        <button onClick={() => addLSData(book, 'read')} className="text-[#131313] text-lg font-semibold py-3 lg:py-4 px-7 border border-[rgba(19,19,19,0.30)] rounded-lg Work-Sans mr-4">Read</button>
+                        <button onClick={() => addLSData(book, 'read')} className="text-[#131313] text-lg font-semibold py-3 lg:py-4 px-10 border border-[rgba(19,19,19,0.30)] rounded-lg Work-Sans mr-4">Read</button>
                         <button onClick={() => addLSData(book, 'wish')} className="bg-[#50B1C9] text-white text-lg font-semibold py-3 lg:py-4 px-7 border rounded-lg Work-Sans ">Wishlist</button>
                     </div>
                 </div>

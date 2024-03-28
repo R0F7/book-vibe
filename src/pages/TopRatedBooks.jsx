@@ -11,7 +11,8 @@ const TopRatedBooks = () => {
         .then(res => res.json())
         .then(books => setBooks(books))
     },[]);
-    const topRated = books.filter( book => book.rating >= 4.5);
+    const topRated = books.filter( book => book.rating >= 4.6);
+    // topRatedBooks.sort(())
 // console.log(books);
 
 
